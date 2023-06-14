@@ -1,0 +1,6 @@
+library(tidyverse)
+getwd()
+murders <- read_csv("data/murders.csv")
+head(murders)
+str(murders)
+save(murders, file = "rda/murders.rda")
